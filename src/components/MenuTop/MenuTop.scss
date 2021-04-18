@@ -1,0 +1,84 @@
+
+@import "../../scss/index.scss";
+
+
+ .menu-top{
+   //background-color: #223648 !important;
+   display: block  !important;
+   .ant-btn-primary{
+    background-color:$cuarto-color !important;
+   color: $tercero-color;
+    
+  }
+
+  .gutter-row{
+    color: azure !important;
+    h2{
+      color: azure !important;
+    }
+  }
+ }
+ .circular-menu {
+	position: sticky;
+  //background-color: #223648 !important;
+ 
+  width: 100%;
+  
+	z-index: 1 !important;
+ 
+  
+
+  .circular-menu.circular-menu-left {
+    right: auto;
+    left: 1em;
+   
+    .ant-btn-circle.ant-btn-lg{
+      min-width: 60px !important;
+      border-radius: 50% !important;
+      margin-left: 10px !important;
+      padding-left: 10px !important;
+  
+    }
+
+  
+    
+  }
+
+  .logo{
+   
+   padding-top: 5px;
+    .ant-image-img{
+      width: 100% !important;
+      //height: 100% !important;
+      border-radius: 10px !important;
+      @media (min-width: 768px) {
+        height: 100px !important;
+        width: 90% !important;
+      }
+      
+    }
+  }
+  
+
+}
+
+
+
+.ant-drawer-content-wrapper{
+  height: 69px !important;
+  padding: 0px !important;
+
+  margin: 0px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  .ant-drawer-content{
+    background-color: $cuarto-color !important;
+    padding: 0px !important;
+    
+   
+  }
+}
+
+
+
+
